@@ -1,6 +1,6 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { FaFacebook, FaInstagram} from 'react-icons/fa';
+import { FaGithub, FaInstagram} from 'react-icons/fa';
 import {
     FooterContainer,
     FooterWrap,
@@ -30,11 +30,11 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Adresse</FooterLinkTitle>
-                                <FooterLink to="/">Rosenweg 12</FooterLink>
-                                <FooterLink to="/">54411 Hermeskeil</FooterLink>
-                                <FooterEmail href="mailto:info@lebensart-dupont.de">info@lebensart-dupont.de</FooterEmail>
-                                <FooterLink to="/">06503/8933</FooterLink>
+                            <FooterLinkTitle>Title</FooterLinkTitle>
+                                <FooterLink to="/">Link</FooterLink>
+                                <FooterLink to="/">Link</FooterLink>
+                                <FooterEmail>info@test.de</FooterEmail>
+                                <FooterLink to="/">Link</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                                 <FooterLink to="/datenschutz" smooth={true} duration={500} spy={true} exact='true'>Impressum</FooterLink>
@@ -44,14 +44,11 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/" onClick={toggleHome}>LebensArt</SocialLogo>
-                        <WebsiteRights>LebensArt © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                        <SocialLogo to="/" onClick={toggleHome}>ElioPourLesNoobs</SocialLogo>
+                        <WebsiteRights>ElioPourLesNoobs © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="//www.facebook.com/LebensartHermeskeil/" target="_blank" aria-label="Facebook">
-                                <FaFacebook />
-                            </SocialIconLink>
-                            <SocialIconLink href="//www.instagram.com/lebensarthermeskeil/?hl=de" target="_blank" aria-label="Instagram">
-                                <FaInstagram />
+                            <SocialIconLink href="https://github.com/JanDupont/website_eliopourlesnoobs" target="_blank" aria-label="Facebook">
+                                <FaGithub />
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>

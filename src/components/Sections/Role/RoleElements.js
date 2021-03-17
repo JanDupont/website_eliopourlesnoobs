@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-export const InfoContainer = styled.div`
+export const RoleContainer = styled.div`
+    min-height: 100vh;
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
 
@@ -9,7 +10,7 @@ export const InfoContainer = styled.div`
     }
 `;
 
-export const InfoWrapper = styled.div`
+export const RoleWrapper = styled.div`
     display: grid;
     z-index: 1;
     min-height: 100vh;
@@ -21,11 +22,12 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 `;
 
-export const InfoRow = styled.div`
+export const RoleRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+    margin-top: 50px;
 
     @media screen and (max-width: 768px){
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
@@ -51,7 +53,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: #CC1010;
+    color: #24888B;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -74,7 +76,7 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
@@ -90,8 +92,27 @@ export const ImgWrap = styled.div`
     height: 100%;
 `;
 
-export const Iframe = styled.iframe`
-    border: 0;
+export const Img = styled.img`
+    width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
+`;
+
+export const Zauber = styled.div`
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+`;
+
+export const ZauberBild = styled.img`
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+`;
+
+export const ZauberText = styled.div`
+
 `;

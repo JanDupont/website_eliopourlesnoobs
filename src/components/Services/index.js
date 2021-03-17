@@ -4,8 +4,8 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesI
 
 const Services = () => {
     return (
-        <ServicesContainer id="services">
-            <ServicesH1>Sortiment</ServicesH1>
+        <ServicesContainer id="sets">
+            <ServicesH1>Sets</ServicesH1>
             <ServicesWrapper>
                 
             </ServicesWrapper>

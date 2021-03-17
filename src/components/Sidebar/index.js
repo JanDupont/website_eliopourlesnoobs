@@ -10,19 +10,19 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to="news" onClick={toggle}>
-                        News
+                        Role
                     </SidebarLink>
                     <SidebarLink to="about" onClick={toggle}>
-                        Über Uns
-                    </SidebarLink>
-                    <SidebarLink to="discover" onClick={toggle}>
-                        DHL-Paketshop
+                        Elements
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>
-                        Sortiment
+                        Sets
                     </SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>
-                        Öffnungszeiten
+                        Portals
+                    </SidebarLink>
+                    <SidebarLink to="tricks" onClick={toggle}>
+                        Tips & Tricks
                     </SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>

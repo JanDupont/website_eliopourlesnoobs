@@ -9,7 +9,7 @@ export const Container = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
-    background: #A29797;
+    background: #A3A8A8;
 `;
 
 export const FormWrap = styled.div`
@@ -27,7 +27,7 @@ export const Icon = styled(Link)`
     margin-left: 32px;
     margin-top: 32px;
     text-decoration: none;
-    color: #CC100B;
+    color: #144C4E;
     font-weight: 700;
     font-size: 32px;
 
