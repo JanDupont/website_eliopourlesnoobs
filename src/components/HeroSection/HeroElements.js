@@ -53,8 +53,13 @@ export const HeroContent = styled.div`
     align-items: center;
     margin-top: 30px;
 
+    left: 100px;
+
     @media screen and (max-width: 768px){
         margin-top: 100px;
+    }
+    @media screen and (max-width: 768px){
+        left: 0;
     }
 `;
 
