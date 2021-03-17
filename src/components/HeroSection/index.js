@@ -23,7 +23,7 @@ const HeroSection = () => {
                 <ImgBg src={Bild} />
             </HeroBg>
             <HeroContent>
-                <HeroH1>ElioPourLesNoobs</HeroH1>
+                <HeroH1>ElioPourLesNoobs test</HeroH1>
                 <HeroP>
                     Everything you need to know to get started as Elio!
                 </HeroP>
