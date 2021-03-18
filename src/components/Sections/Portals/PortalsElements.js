@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ElementsContainer = styled.div`
+export const PortalsContainer = styled.div`
     min-height: 100vh;
     color: #fff;
     background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};

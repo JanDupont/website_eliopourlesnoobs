@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesElements';
 
-const Services = () => {
+const Sets = () => {
     return (
         <ServicesContainer id="sets">
             <ServicesH1>Sets</ServicesH1>
@@ -13,4 +13,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Sets

@@ -3,8 +3,10 @@ import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 
 import Navbar from '../components/NavBar'
+import ElementsSection from '../components/Sections/Elements'
+import PortalsSection from '../components/Sections/Portals'
 import RoleSection from '../components/Sections/Role'
-import Services from '../components/Services'
+import Sets from '../components/Services'
 import Sidebar from '../components/Sidebar'
 
 const Home = () => {
@@ -21,7 +23,9 @@ const Home = () => {
             <Navbar toggle={toggle} />
             <HeroSection />
             <RoleSection/>
-            <Services />
+            <ElementsSection/>
+            <Sets />
+            <PortalsSection />
             <Footer />
         </>
     )
