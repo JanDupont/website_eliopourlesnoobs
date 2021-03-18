@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const RoleContainer = styled.div`
     min-height: 100vh;
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+    background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
     @media screen and (max-width: 768px){
         padding: 100px 0;
@@ -22,15 +22,21 @@ export const RoleWrapper = styled.div`
     justify-content: center;
 `;
 
+export const RoleTop = styled.div`
+    margin-top: 50px;
+    margin-bottom: -30px;
+`;
+
 export const RoleRow = styled.div`
     display: grid;
+    grid-gap: 50px;
     grid-auto-columns: minmax(auto, 1fr);
-    align-items: center;
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+    align-items: start;
+    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
     margin-top: 50px;
 
     @media screen and (max-width: 768px){
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
     }
 `;
 
@@ -79,16 +85,23 @@ export const Subtitle = styled.p`
     margin-bottom: 45px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+    color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+`;
+
+export const TopSubtitle = styled.p`
+    margin-bottom: 45px;
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 `;
 
 export const BtnWrap = styled.div`
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 350px;
     height: 100%;
 `;
 
