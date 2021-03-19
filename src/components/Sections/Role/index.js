@@ -87,7 +87,7 @@ const RoleSection = () => {
                            </Zauber>
                            <br />
                            <Zauber>
-                              <ZauberText>When there is an Eliotrope in your team who placed a Totem ("Distortion"), all team-members will get a small amount of heal when entering (walking, beeing pushed, ...) into a portal.</ZauberText>
+                              <ZauberText>When there is an Eliotrope in your team who placed a Totem ("Distortion"), all team-members will get a small amount of heal (5% max hp) when entering (walking, beeing pushed, ...) into a portal.</ZauberText>
                               <ZauberBild src={Spell_Distortion} title="Distortion" />
                            </Zauber>
                            <br />
