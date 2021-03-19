@@ -36,9 +36,11 @@ const PortalsSection = () => {
             <PortalsContainer lightBg={false} id="portals">
                 <PortalsWrapper>
                     <ContentWrapper>
-                        <TopLine>Portals</TopLine>
+                        <PortalsTop>
+                            <TopLine>Portals</TopLine>
+                        </PortalsTop>
                         <Topic>
-                            <Heading lightText={true}>What is the number Portal number?</Heading>
+                            <Heading lightText={true}>What is the Portal number?</Heading>
                                 <Text>
                                     The <strong style={{ color: '#299A9D' }}>number</strong> is just an indicator for which Portal disappears first, when we place more than 4 Portals. <br/>
                                     The Portal with <strong style={{ color: '#299A9D' }}>number 1</strong> will be removed first.<br/>
@@ -105,7 +107,7 @@ const PortalsSection = () => {
                                             It works like a <strong style={{ color: '#299A9D' }}>"reversed Dofus-AoE-Rotation"</strong>.<br/>
                                             Imagine checking cells 1 by 1 if there is a Portal on a cell, then the cells are passed through in this order (Screen 1 & 2).<br/>
                                             It is exactly opposite to the "normal Dofus-Aoe-Rotation".<br/><br/>
-                                            The <strong style={{ color: '#299A9D' }}>"normal Dofus-AoE-Rotation"</strong> also starts where I've painted "1", but then goes on in the opposite direction (where I've painted 4->3->2->5->12->11->... you can test it very good with Cra Explosive-Arrow on low lvl mobs and see in which order they die).<br/><br/>
+                                            The <strong style={{ color: '#299A9D' }}>"normal Dofus-AoE-Rotation"</strong> also starts where I've painted "1", but then goes on in the opposite direction (where I've painted 4-3-2-5-12-11-... you can test it very good with Cra Explosive-Arrow on low lvl mobs and see in which order they die).<br/><br/>
 
                                         </Text>
                                     </TopicContent>
