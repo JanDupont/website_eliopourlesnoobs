@@ -68,7 +68,27 @@ const RoleSection = () => {
                               <ZauberText>Dmg Boost: 5%  + 2%per cell the spell is "traveling"</ZauberText>
                            </Zauber>
                         </Subtitle>
-                        <Heading lightText={true}>Healer</Heading>
+                        <ImgWrap>
+                           <Img src={ElioBasicSkin} alt="/" />
+                        </ImgWrap>
+                        <BtnWrap>
+                        <Button to="tricks"
+                           smooth={true}
+                           duration={500}
+                           spy={true}
+                           exact={true}
+                           offset={-80}
+                           primary={true}
+                           dark={true}
+                           dark2={true}>
+                           Tips & Tricks
+                                    </Button>
+                     </BtnWrap>
+                     </TextWrapper>
+                  </Column1>
+                  <Column2>
+                     <TextWrapper>
+                  <Heading lightText={true}>Healer</Heading>
                         <Subtitle darkText={false}>
                            Eliotropes got multiple ways to heal allies.<br />
                            Most of these are based on the maximum-haelthpoints of the target:
@@ -98,10 +118,6 @@ const RoleSection = () => {
                               <ZauberBild src={Spell_CurativePalm} title="Curative Palm" />
                            </Zauber>
                         </Subtitle>
-                     </TextWrapper>
-                  </Column1>
-                  <Column2>
-                     <TextWrapper>
                         <Heading lightText={true}>Positioner</Heading>
                         <Subtitle darkText={false}>
                            <Zauber>
@@ -115,22 +131,6 @@ const RoleSection = () => {
                          Also Eliotropes have many other movement-spells to push & pull ennemies, allies and themselves or to create new portals.
                   </Subtitle>
                      </TextWrapper>
-                     <ImgWrap>
-                        <Img src={ElioBasicSkin} alt="/" />
-                     </ImgWrap>
-                     <BtnWrap>
-                        <Button to="tricks"
-                           smooth={true}
-                           duration={500}
-                           spy={true}
-                           exact={true}
-                           offset={-80}
-                           primary={true}
-                           dark={true}
-                           dark2={true}>
-                           Tips & Tricks
-                                    </Button>
-                     </BtnWrap>
                   </Column2>
                </RoleRow>
             </RoleWrapper>

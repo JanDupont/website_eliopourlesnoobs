@@ -96,6 +96,7 @@ export const TopSubtitle = styled.p`
 `;
 
 export const BtnWrap = styled.div`
+    margin-top: 45px;
     display: flex;
     justify-content: center;
 `;
