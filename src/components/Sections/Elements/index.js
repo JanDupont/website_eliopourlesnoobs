@@ -52,7 +52,7 @@ const ElementsSection = () => {
                     <ElementsTop>
                         <TopLine>Elements</TopLine>
                         <TopSubtitle darkText={false}>
-                            Overview about different elements on Eliotrope
+                            Overview about different elements on Eliotrope.
                             <br />
                             First of all, all Mono-Element-Builds are very good on Elio.
                             <br />

@@ -6,7 +6,8 @@ import {
     ImgBg,
     HeroContent,
     HeroH1,
-    HeroP
+    HeroP,
+    HeroP2
 } from './HeroElements'
 
 const HeroSection = () => {
@@ -27,6 +28,9 @@ const HeroSection = () => {
                 <HeroP>
                     Everything you need to know to get started as Elio!
                 </HeroP>
+                <HeroP2>
+                    By Shin-dei-ru (Echo)
+                </HeroP2>
             </HeroContent>
         </HeroContainer>
     )

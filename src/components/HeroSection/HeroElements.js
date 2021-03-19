@@ -82,7 +82,24 @@ export const HeroH1 = styled.h1`
 export const HeroP = styled.p`
     margin-top: 24px;
     color: #fff;
-    font-size: 24px;
+    font-size: 26px;
+    text-align: center;
+    max-width: 600px;
+    text-shadow: 2px 2px #000;
+
+    @media screen and (max-width: 768px){
+        font-size: 24px;
+    }
+
+    @media screen and (max-width: 480px){
+        font-size: 18px;
+    }
+`;
+
+export const HeroP2 = styled.p`
+    margin-top: 24px;
+    color: #fff;
+    font-size: 16px;
     text-align: center;
     max-width: 600px;
     text-shadow: 2px 2px #000;
