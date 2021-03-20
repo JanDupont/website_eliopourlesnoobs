@@ -91,7 +91,7 @@ const RoleSection = () => {
                   <Heading lightText={true}>Healer</Heading>
                         <Subtitle darkText={false}>
                            Eliotropes got multiple ways to heal allies.<br />
-                           Most of these are based on the maximum-haelthpoints of the target:
+                           Most of these are based on the maximum-healthpoints of the target:
                            <Zauber>
                               <ZauberBild src={Spell_CurativePalm} title="Curative Palm" />
                               <ZauberBild src={Spell_Healing} title="Healing" />

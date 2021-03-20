@@ -4,3 +4,102 @@
   padding: 0;
   font-family: 'Encode Sans Expanded', sans-serif;
 }
+
+/*----------------Sets Styling---------------------------------*/
+.item{
+  display: grid;
+  grid-template-columns: repeat(2, 540px);
+  grid-gap: 3rem;
+  justify-content: center;
+  padding-bottom: 6rem;
+}
+
+.item-con{
+  color: white;
+  width: 100%;
+  padding: 1rem 1rem;
+  background-color: #092F30;
+  
+  justify-content: center;
+}
+
+.item-container{
+  overflow: hidden;
+}
+
+.item-container > img{
+  width: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.item-container > img:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.item-container h2{
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 1rem 0;
+}
+
+.item-container h2:hover{
+  transition: all .3s ease-in-out;
+  color: #299A9D;
+  cursor: pointer;
+}
+
+.item-container p{
+  color: rgba(255,255,255, 0.747);
+}
+
+.setsButtons{
+  width: 100%;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+}
+
+.setsBtn{
+  padding: .7rem 2rem;
+  background-color: #138b8f;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  transition: all 0.1s cubic-bezier(1, -0.6, 0.6, 1.35);
+}
+
+.setsBtn:not(:last-child){
+  margin-right: 1rem;
+}
+
+.setsBtn:hover{
+  background-color: #1ecdd3;
+  cursor: pointer;
+}
+
+.setsBtn:active, .setsBtn:focus{
+  outline: none;
+  border: none;
+}
+
+@media screen and (max-width: 1130px){
+  .item{
+    grid-template-columns: repeat(1, 600px);
+  }
+  .item-con{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 795px){
+  .item{
+    grid-template-columns: repeat(1, 300px);
+  }
+  .item-con{
+    width: 100%;
+  }
+  .setsBtn{
+    margin-bottom: 1rem;
+  }
+}

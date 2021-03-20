@@ -164,7 +164,7 @@ const ElementsSection = () => {
                                 </Subtitle>
                                 <Heading lightText={true}>Chance</Heading>
                                 <Subtitle darkText={false}>
-                                    Chance Eliotrope Spells got the worst utility compared to other elements, but the chance-build comes with high very high range. Often chance is used as a surprise-build in 1v1 to avoid target %resistance stacking of your opponent.<br /><br />
+                                    Chance Eliotrope Spells got the worst utility compared to other elements, but the chance-build comes with very high range. Often chance is used as a surprise-build in 1v1 to avoid target %resistance stacking of your opponent.<br /><br />
                                     Another common chance build is based on Servitude-Belt, a legendary Item that applies "unmovable" state to you at the end of your turn untill you get hit. This build shines vs pushback damage ennemies, sometimes xelors and in PvM against any ennemies who move/teleport you.
                                     <Zauber>
                                         <ZauberBild src={Spell_Affliction} />

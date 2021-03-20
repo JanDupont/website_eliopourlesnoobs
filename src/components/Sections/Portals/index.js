@@ -82,27 +82,27 @@ const PortalsSection = () => {
                                         </Text>
                                     </TopicContent>
                                     <br/>
-                                    <TopLine>Rule 2</TopLine>When there are more than one Portal with the <strong style={{ color: '#299A9D' }}>same distance</strong> from the Portal in which you're going to hit/walk into, it will connect "Clockwise", that means the blue lines will run Clockwise.
+                                    <TopLine>Rule 2</TopLine>When there is more than one Portal with the <strong style={{ color: '#299A9D' }}>same distance</strong> from the Portal in which you're going to hit/walk into, it will connect "Clockwise", that means the blue lines will run Clockwise.
                                     <TopicContent>
                                         <ImgWrap>
                                             <Img src={Portals_bsp_5}/>
                                             <Img src={Portals_bsp_6}/>
                                         </ImgWrap>
                                         <Text>
-                                            In this example, we're going to hit into <strong style={{ color: '#299A9D' }}>Portal 1</strong> <br/>
+                                            In this example, we're going to hit into <strong style={{ color: '#299A9D' }}>Portal 1</strong>. <br/>
                                             Now <strong style={{ color: '#299A9D' }}>Portal 3, 2 and 4</strong> all have the <strong style={{ color: '#299A9D' }}>same distance</strong> to Portal 1.<br/>
                                             The game chooses the connection of the portals so that the <strong style={{ color: '#299A9D' }}>blue lines</strong> always run clockwise.
                                         </Text>
                                     </TopicContent>
                                     <br/>
-                                    <TopLine>Rule 3</TopLine><strong style={{ color: '#299A9D' }}>Same distance</strong> (rule 2) AND <strong style={{ color: '#299A9D' }}>180° degree</strong> (so no visible rotation): reversed Dofus-AoE-Rotation
+                                    <TopLine>Rule 3</TopLine><strong style={{ color: '#299A9D' }}>Same distance</strong> (rule 2) AND <strong style={{ color: '#299A9D' }}>180° degree</strong> (so no visible clockwise rotation): reversed Dofus-AoE-Rotation
                                     <TopicContent>
                                         <ImgWrap>
                                             <Img src={Portals_bsp_7}/>
                                             <Img src={Portals_bsp_8}/>
                                         </ImgWrap>
                                         <Text>
-                                            In this example you can see quite <strong style={{ color: '#299A9D' }}>rare case</strong> which does not happen very often.<br/> <br/>
+                                            In this example you can see a quite <strong style={{ color: '#299A9D' }}>rare case</strong> which does not happen very often.<br/> <br/>
                                             Just to understand how it works:<br/>
                                             It works like a <strong style={{ color: '#299A9D' }}>"reversed Dofus-AoE-Rotation"</strong>.<br/>
                                             Imagine checking cells 1 by 1 if there is a Portal on a cell, then the cells are passed through in this order (Screen 1 & 2).<br/>

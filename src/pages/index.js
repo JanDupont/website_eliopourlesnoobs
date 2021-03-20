@@ -6,7 +6,7 @@ import Navbar from '../components/NavBar'
 import ElementsSection from '../components/Sections/Elements'
 import PortalsSection from '../components/Sections/Portals'
 import RoleSection from '../components/Sections/Role'
-import Sets from '../components/Services'
+import Sets from '../components/Sets'
 import Sidebar from '../components/Sidebar'
 
 const Home = () => {
