@@ -8,7 +8,7 @@ function Menu({menuItem}) {
                 menuItem.map((item) => {
                     return <div className="item-con" key={item.id}>
                         <div className="item-container">
-                            <img src={item.image} alt=""/>
+                            <a href={item.link} target="_blank" rel="noopener noreferrer"><img src={item.image} alt=""/></a>
                             <h2>{item.title}</h2>
                             <p>{item.description}</p>
                             <p>Res<span>&nbsp;&nbsp;</span>: {item.res}</p>

@@ -27,12 +27,12 @@
   overflow: hidden;
 }
 
-.item-container > img{
+.item-container > a > img{
   width: 100%;
   transition: all .3s ease-in-out;
 }
 
-.item-container > img:hover{
+.item-container > a > img:hover{
   transform: scale(1.05);
   cursor: pointer;
 }
