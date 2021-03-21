@@ -1,6 +1,6 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { FaGithub, FaInstagram} from 'react-icons/fa';
+import { FaGithub} from 'react-icons/fa';
 import {
     FooterContainer,
     FooterWrap,
@@ -30,15 +30,12 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Title</FooterLinkTitle>
-                                <FooterLink to="/">Link</FooterLink>
-                                <FooterLink to="/">Link</FooterLink>
-                                <FooterEmail>info@test.de</FooterEmail>
-                                <FooterLink to="/">Link</FooterLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                                <FooterLink to="/datenschutz" smooth={true} duration={500} spy={true} exact='true'>Impressum</FooterLink>
-                                <FooterLink to="/datenschutz" smooth={true} duration={500} spy={true} exact='true'>Datenschutz</FooterLink>
+                            <FooterLinkTitle>ElioPourLesNoobs</FooterLinkTitle>
+                                <FooterLink to="role">Role</FooterLink>
+                                <FooterLink to="elements">Elements</FooterLink>
+                                <FooterLink to="sets">Sets</FooterLink>
+                                <FooterLink to="portals">Portals</FooterLink>
+                                <FooterLink to="tricks">Tips & Tricks</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

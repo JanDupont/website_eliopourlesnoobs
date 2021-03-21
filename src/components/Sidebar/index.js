@@ -15,14 +15,14 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="elements" onClick={toggle}>
                         Elements
                     </SidebarLink>
-                    <SidebarLink to="sets" onClick={toggle}>
-                        Sets
-                    </SidebarLink>
                     <SidebarLink to="portals" onClick={toggle}>
                         Portals
                     </SidebarLink>
                     <SidebarLink to="tricks" onClick={toggle}>
                         Tips & Tricks
+                    </SidebarLink>
+                    <SidebarLink to="sets" onClick={toggle}>
+                        Sets
                     </SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>

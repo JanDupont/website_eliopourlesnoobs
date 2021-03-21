@@ -8,6 +8,7 @@ import PortalsSection from '../components/Sections/Portals'
 import RoleSection from '../components/Sections/Role'
 import Sets from '../components/Sets'
 import Sidebar from '../components/Sidebar'
+import TipsUndTricks from '../components/Sections/TipsUndTricks'
 
 const Home = () => {
 
@@ -24,8 +25,9 @@ const Home = () => {
             <HeroSection />
             <RoleSection/>
             <ElementsSection/>
-            <Sets />
             <PortalsSection />
+            <TipsUndTricks />
+            <Sets />
             <Footer />
         </>
     )
