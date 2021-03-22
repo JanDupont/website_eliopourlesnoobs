@@ -31,11 +31,11 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>ElioPourLesNoobs</FooterLinkTitle>
-                                <FooterLink to="role">Role</FooterLink>
-                                <FooterLink to="elements">Elements</FooterLink>
-                                <FooterLink to="sets">Sets</FooterLink>
-                                <FooterLink to="portals">Portals</FooterLink>
-                                <FooterLink to="tricks">Tips & Tricks</FooterLink>
+                                <FooterLink to="role" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Role</FooterLink>
+                                <FooterLink to="elements" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Elements</FooterLink>
+                                <FooterLink to="sets" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sets</FooterLink>
+                                <FooterLink to="portals" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Portals</FooterLink>
+                                <FooterLink to="tricks" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Tips & Tricks</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

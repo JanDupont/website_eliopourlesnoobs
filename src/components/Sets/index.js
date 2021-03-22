@@ -5,7 +5,7 @@ import Button from './Button';
 
 import { SetsContainer, TopLine, SetsWrapper } from './SetsElements';
 
-const allCategories = ['All', ...new Set(items.map(item => item.category))];
+const allCategories = ['All', ...new Set(items.map(item => item.category[0]))];
 
 const Sets = () => {
 
@@ -19,7 +19,8 @@ const Sets = () => {
             return;
         }
 
-        const filteredData = items.filter(item => item.category === button);
+        //const filteredData = items.filter(item => item.category === button);
+        const filteredData = items.filter(item => item.category.indexOf(button) !== -1);
         setMenuItem(filteredData)
     }
 
