@@ -18,13 +18,15 @@
   color: white;
   width: 100%;
   padding: 1rem 1rem;
-  background-color: #092F30;
+  background-color: #616262;
+  border-radius: 20px;
   
   justify-content: center;
 }
 
 .item-container{
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .item-container > a > img{
