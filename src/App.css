@@ -29,6 +29,10 @@
   border-radius: 20px;
 }
 
+.Sets-letzte-reihe{
+  margin-bottom: 10px;
+}
+
 .item-container > a > img{
   width: 100%;
   transition: all .3s ease-in-out;

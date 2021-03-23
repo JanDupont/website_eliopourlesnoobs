@@ -12,7 +12,7 @@ function Menu({menuItem}) {
                             <h2>{item.title}</h2>
                             <p>{item.description}</p>
                             <p>Res<span>&nbsp;&nbsp;</span>: {item.res}</p>
-                            <p>Exos: {item.exos}</p>
+                            <p className="Sets-letzte-reihe">Exos: {item.exos}</p>
                         </div>
                     </div>
                 })
