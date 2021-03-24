@@ -89,6 +89,10 @@
   border: none;
 }
 
+.tippy-tooltip.tomato-theme {
+  background-color: transparent;
+}
+
 @media screen and (max-width: 1130px){
   .item{
     grid-template-columns: repeat(1, 600px);
