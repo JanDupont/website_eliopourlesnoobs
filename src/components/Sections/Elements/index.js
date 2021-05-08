@@ -184,9 +184,9 @@ const ElementsSection = () => {
                         </Column1>
                         <Column2>
                             <TextWrapper>
-                                <Heading lightText={true}>Strengh</Heading>
+                                <Heading lightText={true}>Strength</Heading>
                                 <Subtitle darkText={false}>
-                                    Strengh Eliotrope comes with a lot of utility while attacking.<br />
+                                    Strength Eliotrope comes with a lot of utility while attacking.<br />
                                     <Zauber>
                                         <Tippy theme="tomato" maxWidth="1000px" content={<SpellTooltip Bild={Spell_Beschreibung_Snub}></SpellTooltip>}>
                                             <ZauberBild src={Spell_Snub} />
@@ -227,7 +227,7 @@ const ElementsSection = () => {
                                         </Tippy>
                                         <ZauberText>Shock is a mid range AoE damage spell. It pulls all targets to the center. Doesn't damage allies.</ZauberText>
                                     </Zauber>
-                                    Strengh Eliotropes often play Sets with high critical hits, high crit-dmg and fix-dmg, because most strengh spells don't have a high base damage.
+                                    Strength Eliotropes often play Sets with high critical hits, high crit-dmg and fix-dmg, because most strength spells don't have a high base damage.
                                 </Subtitle>
                                 <Heading lightText={true}>Chance</Heading>
                                 <Subtitle darkText={false}>

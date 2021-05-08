@@ -25,7 +25,7 @@ export default[
     {
         id: 2,
         image: Set2,
-        title: 'Meta Strengh',
+        title: 'Meta Strength',
         category: ['Str'],
         description: '11/6/4 - 1200 Str - 119 Dmg - 97 CritDmg - 60 Crit',
         res: '14% 18% 44% 29% 40%',
