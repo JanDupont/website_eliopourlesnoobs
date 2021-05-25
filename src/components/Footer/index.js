@@ -15,7 +15,8 @@ import {
     SocialLogo,
     WebsiteRights,
     SocialIcons,
-    SocialIconLink
+    SocialIconLink,
+    FooterLinkHref
 } from './FooterElements';
 
 const Footer = () => {
@@ -36,6 +37,9 @@ const Footer = () => {
                                 <FooterLink to="sets" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sets</FooterLink>
                                 <FooterLink to="portals" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Portals</FooterLink>
                                 <FooterLink to="tricks" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Tips & Tricks</FooterLink>
+                        </FooterLinkItems>
+                        <FooterLinkItems>
+                            <FooterLinkHref href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank">Legit broken set</FooterLinkHref>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

@@ -67,6 +67,19 @@ export const FooterLink = styled(Link)`
     }
 `;
 
+export const FooterLinkHref = styled.a`
+    color: #1ECDD3;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+
+    &:hover{
+        color: #1ECDD3;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+    }
+`
+
 export const FooterEmail = styled.a`
     color: #fff;
     text-decoration: none;
