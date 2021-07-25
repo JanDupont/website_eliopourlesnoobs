@@ -10,8 +10,19 @@ import Set9 from '../../images/Set_Int_ApMpParry.png'
 import Set10 from '../../images/Set_Cha_PvMServi.png'
 import Set11 from '../../images/Set_Agi_AllisterJammy.png'
 import Set12 from '../../images/Set_Str_12ApCrit.png'
+import Set13 from '../../images/Set_100Crit_12_6.png'
 
 export default[
+    {
+        id: 13,
+        image: Set13,
+        title: '100% Crit Multi 12/6',
+        category: ['Hybrid'],
+        description: '12/6/2 - 100% Crit - 211 CritDmg',
+        res: '19% 20% 21% 22% 30%',
+        exos: '1AP, 1MP, 11 critical hits',
+        link: 'https://dofuslab.io/view/f9ffeb57-88c9-421a-b882-94f2ca8f1b14/',
+    },
     {
         id: 1,
         image: Set1,
