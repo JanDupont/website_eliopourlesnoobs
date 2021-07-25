@@ -90,7 +90,7 @@ const ElementsSection = () => {
                             Hybrid-Builds are less good on Elio, except if you really want to use the utility of more than one element while also dealing some damage with the utility spell.
                             Usually your damage in Hybrid-Builds is way less than in Mono-Builds.
                             <br /> <br />
-                            My personal preference for Hybrid-Builds  is 100%crit all elements full dmg in PvM, since vitality and %resistance do not realler matter when you're able to kite quite good.
+                            My personal preference for Hybrid-Builds  is 100%crit all elements full dmg in PvM, since vitality and %resistance do not really matter when you're able to kite quite good.
                         </TopSubtitle>
                     </ElementsTop>
                     <ElementsRow imgStart={false}>
