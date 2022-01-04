@@ -47,6 +47,11 @@ const Footer = () => {
                     <SocialMediaWrap>
                         <SocialLogo to="/" onClick={toggleHome}>ElioPourLesNoobs</SocialLogo>
                         <WebsiteRights>ElioPourLesNoobs © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                        <SocialIcons>
+                            <SocialIconLink href="https://github.com/JanDupont/website_eliopourlesnoobs" target="_blank" aria-label="GitHub">
+                                <FaGithub />
+                            </SocialIconLink>
+                        </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>

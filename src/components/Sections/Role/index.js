@@ -48,6 +48,8 @@ import Spell_Beschreibung_Virus from '../../../images/Spell_Beschreibung_Virus.p
 import Spell_Beschreibung_Distribution from '../../../images/Spell_Beschreibung_Verteilung.png'
 import Spell_Beschreibung_Distortion from '../../../images/Spell_Beschreibung_Verzerrung.png'
 
+
+
 const RoleSection = () => {
    return (
       <>

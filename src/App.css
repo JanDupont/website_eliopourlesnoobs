@@ -4,6 +4,9 @@
   padding: 0;
   font-family: 'Encode Sans Expanded', sans-serif;
 }
+body{
+  overflow: overlay;
+}
 
 /*----------------Sets Styling---------------------------------*/
 .item{
@@ -92,6 +95,23 @@
 .tippy-tooltip.tomato-theme {
   background-color: transparent;
 }
+
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background: #299A9D;
+  height:30px;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-track-piece
+{
+   display:none;
+}
+
 
 @media screen and (max-width: 1130px){
   .item{
