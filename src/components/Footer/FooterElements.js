@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {Link} from 'react-scroll';
+import { Link } from 'react-scroll';
 
 export const FooterContainer = styled.footer`
     background-color: #071715;
@@ -78,18 +78,6 @@ export const FooterLinkHref = styled.a`
         transition: 0.3s ease-out;
         cursor: pointer;
     }
-`
-
-export const FooterEmail = styled.a`
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-    font-size: 14px;
-
-    &:hover{
-        color: #CC100B;
-        transition: 0.3s ease-out;
-    }
 `;
 
 export const SocialMedia = styled.section`
@@ -124,16 +112,4 @@ export const SocialLogo = styled(Link)`
 export const WebsiteRights = styled.small`
     color: #fff;
     margin-bottom: 16px;
-`;
-
-export const SocialIcons = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 240px;
-`;
-
-export const SocialIconLink = styled.a`
-    color: #fff;
-    font-size: 24px;
 `;
